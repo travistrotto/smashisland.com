@@ -4,16 +4,17 @@ header {
   background: url('../assets/header-bg.png') no-repeat center center fixed;
   background-size: cover;
 }
+
 header a {
   color: red;
   text-decoration: none;
 }
 body {
-  background-color: var( --bs-white);
-  /*
-  background: url('../assets/bg.png') no-repeat center center fixed;
+ 
+  /*color: white;*/
+  background: url('../assets/logo.png') no-repeat center center fixed;
   background-size: cover;
-  */
+  
 }
 
 footer {

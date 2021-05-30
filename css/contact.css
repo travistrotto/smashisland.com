@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/*!
+* Smash Island Tournaments CSS Styles
+* Copyright 2021 Smash Island
+* @author: Travis Trotto
+*/
+/*!
+* 
+* Copyright 2013-2021 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-the-big-picture/blob/master/LICENSE)
+*/
+/*!
+ * Bootstrap v5.0.1 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+ :root {
+  --bs-red: #dc3545;
+}
+
+header {
+  background: url('../assets/header-bg.png') no-repeat center center fixed;
+  background-size: cover;
+}
+header a {
+  color: red;
+  text-decoration: none;
+}
+
+body {
+  background-color: #dc3545;
+  /*
+  background: url('../assets/bg.png') no-repeat center center fixed;
+  background-size: cover;
+  */
+}
+
+#white a{
+  color: white;
+  text-decoration: none;
+}
+
+.contact {
+  color: white;
+}
+
+footer {
+  color: var(--bs-red);
+}
+
+.spoiler{ 
+  color: var(--bs-red); 
+  background-color:var(--bs-red);
+  padding: 2px;
+  border-radius: 3px;
+}
+
+.spoiler:hover{
+  color: white;
+  }
+
+

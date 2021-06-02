@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>smashisland.com - Admin Panel</title>
+        <title>smashisland.com - TO Panel</title>
         <!--
-            * Smash Island Tournaments Admin Panel 
+            * Smash Island Tournaments TO Panel 
             * @author Travis Trotto
         -->
         <meta charset="utf-8" />
@@ -167,6 +167,13 @@
                 echo '</pre>';
             }
         ?>
+
+         <!-- Copyright -->
+        <footer class="py-5 bg-dark">
+            <br><br><br><br><br><br><br><br><br><br><br>
+            <div class="container"><p class="m-0 text-center" style="color: black;">Copyright &copy; Smash Island 2021</p></div>
+            <br><br><br><br>
+        </footer>
 
 
         </div>
